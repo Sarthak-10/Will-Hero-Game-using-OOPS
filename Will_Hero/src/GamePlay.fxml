@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="playGameAp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#moveFrwd" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GamePlayController">
+   <children>
+      <ImageView fitHeight="45.0" fitWidth="46.0" layoutX="952.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pause" fitHeight="45.0" fitWidth="46.0" layoutX="842.0" layoutY="32.0" onMouseClicked="#pause" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Pause.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

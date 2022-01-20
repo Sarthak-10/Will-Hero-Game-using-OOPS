@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" stylesheets="@../css/theme.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ThemeController">
+   <children>
+      <ImageView fx:id="clearSky" fitHeight="160.0" fitWidth="240.0" layoutX="-1032.0" layoutY="97.0" onMouseClicked="#changeThemetoClearsky" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/clouds.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Clouds" fitHeight="151.0" fitWidth="256.0" layoutX="-700.0" layoutY="107.0" onMouseClicked="#changeThemetoClouds" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/bg2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nightMode" fitHeight="160.0" fitWidth="243.0" layoutX="-380.0" layoutY="99.0" onMouseClicked="#changeThemetoNightmode" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/nightmode.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="beach" fitHeight="128.0" fitWidth="260.0" layoutX="1245.0" layoutY="350.0" onMouseClicked="#changeThemetoBeach" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/beach.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sunSet" fitHeight="151.0" fitWidth="226.0" layoutX="1605.0" layoutY="344.0" onMouseClicked="#changeThemetoSunset" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/sunset.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="evening" fitHeight="151.0" fitWidth="256.0" layoutX="1920.0" layoutY="347.0" onMouseClicked="#changeThemetoEvening" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/evening.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="clearskylogo" fitHeight="122.0" fitWidth="226.0" layoutX="58.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/clearskylogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cloudslogo" fitHeight="150.0" fitWidth="200.0" layoutX="436.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/cloudslogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nightmodelogo" fitHeight="107.0" fitWidth="226.0" layoutX="809.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/nightmodelogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="beachlogo" fitHeight="150.0" fitWidth="200.0" layoutX="80.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/beachlogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sunsetlogo" fitHeight="150.0" fitWidth="200.0" layoutX="442.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/sunsetlogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="eveninglogo" fitHeight="128.0" fitWidth="211.0" layoutX="809.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/eveninglogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="chooselogo" fitHeight="150.0" fitWidth="200.0" layoutX="-200.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/chosselogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="themeslogo" fitHeight="150.0" fitWidth="200.0" layoutX="1100.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/themeslogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="axe" fitHeight="58.0" fitWidth="56.0" layoutX="-70.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Throwing_axe.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rocket" fitHeight="47.0" fitWidth="111.0" layoutX="1108.0" layoutY="388.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/leftrocket.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

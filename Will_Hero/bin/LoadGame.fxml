@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="laodGameAp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" stylesheets="@../css/bg.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoadGamesController">
+   <children>
+      <Label layoutX="118.0" layoutY="83.0" text="Enter Username :- ">
+         <font>
+            <Font name="Impact" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="myTextField" layoutX="305.0" layoutY="82.0" prefHeight="25.0" prefWidth="348.0" promptText="Enter your name here" />
+      <Button fx:id="submitButton" layoutX="712.0" layoutY="81.0" mnemonicParsing="false" onMouseClicked="#readText" text="Submit">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="Snocount" layoutX="199.0" layoutY="167.0" mnemonicParsing="false" text="S.no" />
+      <Button fx:id="stepscount" layoutX="395.0" layoutY="167.0" mnemonicParsing="false" text="steps" />
+      <Button fx:id="coinscount" layoutX="580.0" layoutY="167.0" mnemonicParsing="false" text="coins" />
+      <Label layoutX="835.0" layoutY="203.0" text="Enter Serial no">
+         <font>
+            <Font name="Impact" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="gamenoTextFeild" layoutX="829.0" layoutY="242.0" prefHeight="25.0" prefWidth="133.0" promptText="Enter game no here" />
+      <Button fx:id="Load" layoutX="872.0" layoutY="287.0" mnemonicParsing="false" onMouseClicked="#resumeThatGame" text="Load">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="savedlogo" fitHeight="154.0" fitWidth="204.0" layoutX="311.0" layoutY="459.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Savedlogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gameslogo" fitHeight="144.0" fitWidth="212.0" layoutX="502.0" layoutY="447.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/games.logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

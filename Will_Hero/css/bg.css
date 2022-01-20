@@ -1,0 +1,5 @@
+.root {
+    -fx-background-image: url('../images/clouds.jpg');
+    -fx-background-size: cover;
+
+}

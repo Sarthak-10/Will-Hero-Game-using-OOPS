@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" stylesheets="@../css/bg.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RecordController">
+   <children>
+      <ImageView fx:id="welCome" fitHeight="244.0" fitWidth="438.0" layoutX="342.0" layoutY="67.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/welcome.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="TextField" layoutX="486.0" layoutY="341.0" prefHeight="25.0" prefWidth="231.0" promptText="Enter Username here" />
+      <Label layoutX="334.0" layoutY="341.0" text="Enter Username">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="startButton" layoutX="750.0" layoutY="341.0" mnemonicParsing="false" onMouseClicked="#startNewGame" text="Start">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="rocket" fitHeight="78.0" fitWidth="138.0" layoutX="-138.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Rocket_with_flare.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="179.0" layoutX="59.0" layoutY="408.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Islands6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="willHero" fitHeight="44.0" fitWidth="64.0" layoutX="130.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Knight_with_Rocket.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="191.0" fitWidth="187.0" layoutX="877.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/greenIsland1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="chest" fitHeight="27.0" fitWidth="39.0" layoutX="940.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/pinkchest.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="48.0" layoutX="59.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Tree1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="128.0" fitWidth="64.0" layoutX="686.0" layoutY="507.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Tree-4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="92.0" fitWidth="27.0" layoutX="427.0" layoutY="516.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Tree-2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

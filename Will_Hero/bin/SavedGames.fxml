@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="savedGameAp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" stylesheets="@../css/bg.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SavedGames">
+   <children>
+      <ImageView fx:id="play" fitHeight="76.0" fitWidth="81.0" layoutX="422.0" layoutY="208.0" onMouseClicked="#resume" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Play.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="newGame" fitHeight="76.0" fitWidth="182.0" layoutX="617.0" layoutY="208.0" onMouseClicked="#generateNewGameButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/NewGame.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="179.0" layoutX="50.0" layoutY="439.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/redIsland6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="210.0" fitWidth="223.0" layoutX="911.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/greenIsland5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="132.0" layoutX="407.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/resumelogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="171.0" layoutX="624.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/newgamelogo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

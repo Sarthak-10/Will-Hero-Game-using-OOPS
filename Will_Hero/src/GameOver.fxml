@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="GameOverAp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" stylesheets="@../css/bg.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameOver">
+   <children>
+      <ImageView fitHeight="252.0" fitWidth="401.0" layoutX="376.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Game_Over.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="36.0" fitWidth="91.0" layoutX="777.0" layoutY="495.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Exit.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="189.0" layoutX="289.0" layoutY="481.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Resurrect_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="419.0" fitWidth="256.0" layoutX="844.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/greenIsland4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="quit" fitHeight="300.0" fitWidth="273.0" layoutX="691.0" layoutY="292.0" onMouseClicked="#exit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Quit.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="36.0" fitWidth="154.0" layoutX="548.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/GoTo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="menu" fitHeight="196.0" fitWidth="196.0" layoutX="495.0" layoutY="225.0" onMouseClicked="#menu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/MainMenu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="238.0" fitWidth="327.0" layoutX="7.0" layoutY="357.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Island1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="69.0" layoutX="1001.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Sad_Companion.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="123.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="93.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="151.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="34.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="82.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="90.0" fitWidth="78.0" layoutX="112.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Smashed_Will.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="resurrect" fitHeight="189.0" fitWidth="196.0" layoutX="282.0" layoutY="300.0" onMouseClicked="#resurrect" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Resurrect.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="68.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/Standard_Red_Orc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="19.0" fitWidth="145.0" layoutX="104.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic/stars.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
