@@ -58,3 +58,9 @@ Facade Design Pattern
 
 Factory Design Patterns
 
+***UML Class Diagram***
+![UML Class Diagram (1)](https://user-images.githubusercontent.com/55259635/173466262-394b939b-c896-4936-802f-d338a6a38adb.jpg)
+
+***UML Use Case Diagram***
+![UML Use Case Diagram](https://user-images.githubusercontent.com/55259635/173465815-a7125a23-5662-4df0-a07a-d458e00bc17f.jpeg)
+
