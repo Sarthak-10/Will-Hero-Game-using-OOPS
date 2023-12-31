@@ -2,6 +2,8 @@ Implementation of Will Hero Game using Java,JavaFX,SceneBuilder and OOPS Concept
 ==============================================================================
 ![Will Hero Game](https://play-lh.googleusercontent.com/wrn2rRkF1xvH4gAWQRfRv4jSAr0VInYObF7H3K36BoTK3jrkanLQTlm1vOHwdD5ewVZk)
 
+:star:**Please star the repository if you happen to like the project**
+
 The code is an implementation of Will Hero Game (originally developed by Z Play games) using Java, JavaFX and OOP concepts. 
 
 **The Home Page:-**
